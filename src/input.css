@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@utility container {
+    @apply mx-auto
+}
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1170px;
+  
+}
+
+@utility btn{
+    @apply py-5 px-12.5 bg-white rounded-full text-black text-lg font-bold
+}
+ 
+h2{
+    @apply text-[50px] font-bold
+}
